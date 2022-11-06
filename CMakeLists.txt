@@ -14,6 +14,7 @@ add_library(libraries
             src/at_waypoint.cpp
             src/move_waypoint.cpp
             src/system_status.cpp
+            src/Behaivor_Engine.cpp
             src/file.cpp)
 
 add_executable(main
