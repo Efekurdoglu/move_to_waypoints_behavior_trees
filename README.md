@@ -14,8 +14,8 @@ $ sudo apt-get install libzmq3-dev libboost-dev libncurses5-dev libncursesw5-dev
 
 # then clone and build the main repo
 $ cd ~/
-$ git clone --submodule-recursive https://github.com/Efekurdoglu/pick_and_place_behavior_trees.git
-$ cd pick_and_place_behavior_trees
+$ git clone --submodule-recursive https://github.com/Efekurdoglu/move_to_waypoints_behavior_trees.git
+$ cd move_to_waypoints_behavior_trees
 $ mkdir build
 $ cd build
 $ cmake ..
