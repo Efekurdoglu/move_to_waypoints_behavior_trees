@@ -1,0 +1,30 @@
+<root main_tree_to_execute = "main_tree">
+    <BehaviorTree ID = "main_tree">
+        <Fallback name = "root_fallback">
+            <Sequence name = "root_sequence">
+                <Sequence name = "waypoint1">
+                    <Fallback name = "waypoint1_fallback">
+                        <not_reached name = "at_waypoint1"/>
+                        <reach name = "reach"/>
+                    </Fallback>
+                    <reached name = "reached"/>
+                </Sequence>
+                <Sequence name = "waypoint2">
+                    <Fallback name = "waypoint2_fallback">
+                        <not_reached name = "at_waypoint2"/>
+                        <reach name = "go_waypoint2"/>
+                    </Fallback>
+                    <reached name = "reached"/>
+                </Sequence>
+                <Sequence name = "waypoint3">
+                    <Fallback name = "waypoint3_fallback">
+                        <not_reached name = "at_waypoint3"/>
+                        <reach name = "go_waypoint3"/>
+                    </Fallback>
+                    <reached name = "reached"/>
+                </Sequence>
+            </Sequence>
+            <!-- <ask_for_help name = "ask_for_help"> -->
+        </Fallback>
+    </BehaviorTree>
+</root>

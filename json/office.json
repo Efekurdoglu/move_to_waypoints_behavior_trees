@@ -1,0 +1,21 @@
+[
+    {
+        "Name": "point1",
+        "Yaw": -168.8,
+        "Position_X": -1.6,
+        "Position_Y": -4.3
+    },
+    {
+        "Name": "point2",
+        "Yaw": 103.9,
+        "Position_X": 10.6,
+        "Position_Y": -7.6
+    },
+    {
+        "Name": "point3",
+        "Yaw": 129.7,
+        "Position_X": 0.3,
+        "Position_Y": -1.3
+    }
+
+]

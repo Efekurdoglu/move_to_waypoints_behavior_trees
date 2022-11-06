@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibraries.a CMakeFiles/libraries.dir/src/at_waypoint.cpp.o CMakeFiles/libraries.dir/src/move_waypoint.cpp.o CMakeFiles/libraries.dir/src/system_status.cpp.o CMakeFiles/libraries.dir/src/file.cpp.o
+/usr/bin/ranlib liblibraries.a
