@@ -6,10 +6,10 @@
 #include "behaviortree_cpp_v3/action_node.h"
 #include "behaviortree_cpp_v3/bt_factory.h"
 
-class system_status
+class System_status
 {
 public:
-    system_status();
+    System_status();
     static BT::NodeStatus check_battery();
     static BT::NodeStatus ask_for_help();
 };
